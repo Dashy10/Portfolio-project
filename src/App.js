@@ -98,7 +98,14 @@ let Projects = () => {return <div> <h1>Projects</h1>
   <Footer />
  </div>}
 
- let Footer = () => <div className='footer'> Contact Us </div>
+let Footer = () => {
+  <div className='footer'> 
+    <h4> Contact Us</h4> 
+      <form>
+      <input type="text" placeholder="Enter Message here" name='message' />
+      </form>
+  </div>
+}
 
 
 class App extends Component {
